@@ -26,7 +26,7 @@ for detail in about_me:
     if "pet" not in detail:
         print(f"{my_name}\'s {detail} is {about_me[detail]}")
     else:
-        print(f"{my_name} has a {about_me[detail]["colour"]} {about_me[detail]["animal"]} called {about_me[detail]["name"]}")
+        print(f"{my_name} has a {about_me[detail]['colour']} {about_me[detail]['animal']} called {about_me[detail]['name']}")
 
 # practice manipulating the about_me dictionary (add, delete, update & clear)
 about_me["city"] = "Melbourne"
@@ -38,7 +38,7 @@ for detail in about_me:
     if "pet" not in detail:
         print(f"{my_name}\'s {detail} is {about_me[detail]}")
     else:
-        print(f"{my_name} has a {about_me[detail]["colour"]} {about_me[detail]["animal"]} called {about_me[detail]["name"]}")
+        print(f"{my_name} has a {about_me[detail]['colour']} {about_me[detail]['animal']} called {about_me[detail]['name']}")
 
 # clear dictionary
 about_me.clear()
